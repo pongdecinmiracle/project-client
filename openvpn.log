@@ -1,0 +1,75 @@
+Fri Nov 10 08:17:14 2017 OpenVPN 2.4.4 x86_64-redhat-linux-gnu [Fedora EPEL patched] [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Nov  1 2017
+Fri Nov 10 08:17:14 2017 library versions: OpenSSL 1.0.2k-fips  26 Jan 2017, LZO 2.08
+Fri Nov 10 08:17:14 2017 Diffie-Hellman initialized with 2048 bit key
+Fri Nov 10 08:17:14 2017 Outgoing Control Channel Authentication: Using 512 bit message hash 'SHA512' for HMAC authentication
+Fri Nov 10 08:17:14 2017 Incoming Control Channel Authentication: Using 512 bit message hash 'SHA512' for HMAC authentication
+Fri Nov 10 08:17:14 2017 ROUTE_GATEWAY 172.31.16.1/255.255.240.0 IFACE=eth0 HWADDR=02:8e:e4:67:d3:ca
+Fri Nov 10 08:17:14 2017 TUN/TAP device tun0 opened
+Fri Nov 10 08:17:14 2017 TUN/TAP TX queue length set to 100
+Fri Nov 10 08:17:14 2017 do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Fri Nov 10 08:17:14 2017 /sbin/ip link set dev tun0 up mtu 1500
+Fri Nov 10 08:17:14 2017 /sbin/ip addr add dev tun0 local 10.8.0.1 peer 10.8.0.2
+Fri Nov 10 08:17:14 2017 /sbin/ip route add 10.8.0.0/24 via 10.8.0.2
+Fri Nov 10 08:17:14 2017 Could not determine IPv4/IPv6 protocol. Using AF_INET
+Fri Nov 10 08:17:14 2017 Socket Buffers: R=[212992->212992] S=[212992->212992]
+Fri Nov 10 08:17:14 2017 UDPv4 link local (bound): [AF_INET][undef]:1194
+Fri Nov 10 08:17:14 2017 UDPv4 link remote: [AF_UNSPEC]
+Fri Nov 10 08:17:14 2017 MULTI: multi_init called, r=256 v=256
+Fri Nov 10 08:17:14 2017 IFCONFIG POOL: base=10.8.0.4 size=62, ipv6=0
+Fri Nov 10 08:17:14 2017 IFCONFIG POOL LIST
+Fri Nov 10 08:17:14 2017 Initialization Sequence Completed
+Fri Nov 10 17:24:13 2017 event_wait : Interrupted system call (code=4)
+Fri Nov 10 17:24:13 2017 /sbin/ip route del 10.8.0.0/24
+Fri Nov 10 17:24:13 2017 Closing TUN/TAP interface
+Fri Nov 10 17:24:13 2017 /sbin/ip addr del dev tun0 local 10.8.0.1 peer 10.8.0.2
+Fri Nov 10 17:24:13 2017 SIGTERM[hard,] received, process exiting
+Sat Nov 11 11:38:07 2017 OpenVPN 2.4.4 x86_64-redhat-linux-gnu [Fedora EPEL patched] [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Nov  1 2017
+Sat Nov 11 11:38:07 2017 library versions: OpenSSL 1.0.2k-fips  26 Jan 2017, LZO 2.08
+Sat Nov 11 11:38:07 2017 Diffie-Hellman initialized with 2048 bit key
+Sat Nov 11 11:38:07 2017 Outgoing Control Channel Authentication: Using 512 bit message hash 'SHA512' for HMAC authentication
+Sat Nov 11 11:38:07 2017 Incoming Control Channel Authentication: Using 512 bit message hash 'SHA512' for HMAC authentication
+Sat Nov 11 11:38:07 2017 ROUTE_GATEWAY 172.31.16.1/255.255.240.0 IFACE=eth0 HWADDR=02:8e:e4:67:d3:ca
+Sat Nov 11 11:38:07 2017 TUN/TAP device tun0 opened
+Sat Nov 11 11:38:07 2017 TUN/TAP TX queue length set to 100
+Sat Nov 11 11:38:07 2017 do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Sat Nov 11 11:38:07 2017 /sbin/ip link set dev tun0 up mtu 1500
+Sat Nov 11 11:38:07 2017 /sbin/ip addr add dev tun0 local 10.8.0.1 peer 10.8.0.2
+Sat Nov 11 11:38:07 2017 /sbin/ip route add 10.8.0.0/24 via 10.8.0.2
+Sat Nov 11 11:38:07 2017 Could not determine IPv4/IPv6 protocol. Using AF_INET
+Sat Nov 11 11:38:07 2017 Socket Buffers: R=[212992->212992] S=[212992->212992]
+Sat Nov 11 11:38:07 2017 UDPv4 link local (bound): [AF_INET][undef]:1194
+Sat Nov 11 11:38:07 2017 UDPv4 link remote: [AF_UNSPEC]
+Sat Nov 11 11:38:07 2017 MULTI: multi_init called, r=256 v=256
+Sat Nov 11 11:38:07 2017 IFCONFIG POOL: base=10.8.0.4 size=62, ipv6=0
+Sat Nov 11 11:38:07 2017 IFCONFIG POOL LIST
+Sat Nov 11 11:38:07 2017 Initialization Sequence Completed
+Sat Nov 11 13:03:48 2017 event_wait : Interrupted system call (code=4)
+Sat Nov 11 13:03:48 2017 /sbin/ip route del 10.8.0.0/24
+Sat Nov 11 13:03:48 2017 Closing TUN/TAP interface
+Sat Nov 11 13:03:48 2017 /sbin/ip addr del dev tun0 local 10.8.0.1 peer 10.8.0.2
+Sat Nov 11 13:03:48 2017 SIGTERM[hard,] received, process exiting
+Sat Nov 11 13:03:50 2017 OpenVPN 2.4.4 x86_64-redhat-linux-gnu [Fedora EPEL patched] [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] built on Nov  1 2017
+Sat Nov 11 13:03:50 2017 library versions: OpenSSL 1.0.2k-fips  26 Jan 2017, LZO 2.08
+Sat Nov 11 13:03:50 2017 Diffie-Hellman initialized with 2048 bit key
+Sat Nov 11 13:03:50 2017 Outgoing Control Channel Authentication: Using 512 bit message hash 'SHA512' for HMAC authentication
+Sat Nov 11 13:03:50 2017 Incoming Control Channel Authentication: Using 512 bit message hash 'SHA512' for HMAC authentication
+Sat Nov 11 13:03:50 2017 ROUTE_GATEWAY 172.31.16.1/255.255.240.0 IFACE=eth0 HWADDR=02:8e:e4:67:d3:ca
+Sat Nov 11 13:03:50 2017 TUN/TAP device tun0 opened
+Sat Nov 11 13:03:50 2017 TUN/TAP TX queue length set to 100
+Sat Nov 11 13:03:50 2017 do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+Sat Nov 11 13:03:50 2017 /sbin/ip link set dev tun0 up mtu 1500
+Sat Nov 11 13:03:50 2017 /sbin/ip addr add dev tun0 local 10.8.0.1 peer 10.8.0.2
+Sat Nov 11 13:03:50 2017 /sbin/ip route add 10.8.0.0/24 via 10.8.0.2
+Sat Nov 11 13:03:50 2017 Could not determine IPv4/IPv6 protocol. Using AF_INET
+Sat Nov 11 13:03:50 2017 Socket Buffers: R=[212992->212992] S=[212992->212992]
+Sat Nov 11 13:03:50 2017 UDPv4 link local (bound): [AF_INET][undef]:1194
+Sat Nov 11 13:03:50 2017 UDPv4 link remote: [AF_UNSPEC]
+Sat Nov 11 13:03:50 2017 MULTI: multi_init called, r=256 v=256
+Sat Nov 11 13:03:50 2017 IFCONFIG POOL: base=10.8.0.4 size=62, ipv6=0
+Sat Nov 11 13:03:50 2017 IFCONFIG POOL LIST
+Sat Nov 11 13:03:50 2017 Initialization Sequence Completed
+Sat Nov 11 13:44:14 2017 event_wait : Interrupted system call (code=4)
+Sat Nov 11 13:44:14 2017 /sbin/ip route del 10.8.0.0/24
+Sat Nov 11 13:44:14 2017 Closing TUN/TAP interface
+Sat Nov 11 13:44:14 2017 /sbin/ip addr del dev tun0 local 10.8.0.1 peer 10.8.0.2
+Sat Nov 11 13:44:14 2017 SIGTERM[hard,] received, process exiting
